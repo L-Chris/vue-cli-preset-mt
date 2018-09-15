@@ -22,7 +22,7 @@ export default {
   },
   methods: {
     handleClick () {
-      this.goBack()
+      this.$router.back()
     }
   }
 }
@@ -41,15 +41,14 @@ export default {
       display: flex;
       align-items: center;
       justify-content: center;
-      height: $nav-height;
+      height: $head-height;
       color: #ffffff;
       .icon-arrow_left {
-        @include font-dpr(20px);
+        font-size: px2rem(34);
         position: absolute;
         top: 50%;
         left: px2rem(16px);
         transform: translateY(-50%);
-        font-weight: bold;
         color: #ffffff;
       }
     }

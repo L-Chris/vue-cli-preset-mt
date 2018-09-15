@@ -11,5 +11,12 @@ module.exports = (api, options) => {
     }
   })
 
+  // delete default files
+  api.render(files => {
+    Object.keys(files)
+      .filter(path => path.startsWith('src/'))
+      .forEach(path => delete files[path])
+  })
+
   api.render('./template')
 }

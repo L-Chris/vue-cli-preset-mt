@@ -2,7 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import store from '@/store'
 import config from '@/config'
-import {SET_HEADER, SET_BACK_STATUS} from '@/store/mutation-types'
+import {SET_HEADER} from '@/store/mutation-types'
 
 Vue.use(Router)
 

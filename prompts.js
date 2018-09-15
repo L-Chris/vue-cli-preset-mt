@@ -6,22 +6,22 @@ module.exports = [
     choices: [
       { name: 'NEI', value: 'nei' },
       { name: 'RAP', value: 'rap' }
-    ]
+    ],
     default: 'nei'
   },
   {
     name: 'adaptation',
-    type: 'rawlist',
+    type: 'list',
     message: 'Select adaptation',
     choices: [
       { name: 'rem', value: 'rem' },
       { name: 'vm', value: 'vm' }
-    ]
+    ],
     default: 'rem'
   },
   {
     name: 'statistical platform',
-    type: 'rawlist',
+    type: 'list',
     message: 'Select statistical platform',
     choices: [
       { name: 'none', value: 'none' },

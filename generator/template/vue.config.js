@@ -28,8 +28,8 @@ module.exports = {
     loaderOptions: {
       sass: {
         data: `
-          @import "@/styles/var.scss";
           @import "@/styles/mixins.scss";
+          @import "@/styles/vars.scss";
         `
       }
     }
