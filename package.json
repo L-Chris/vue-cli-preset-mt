@@ -1,0 +1,9 @@
+{
+  "name": "vue-cli-preset-mt",
+  "version": "0.0.1",
+  "description": "vue-cli-preset project-mt-template",
+  "main": "index.js",
+  "repository": "https://github.com/L-Chris/vue-cli-preset-mt",
+  "author": "L-Chris <563303226@qq.com>",
+  "license": "MIT"
+}
